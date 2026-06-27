@@ -8,7 +8,7 @@ namespace ShenqiOptimizer.Core
     /// 游戏内存操作类 - 负责直接访问游戏进程内存
     /// 模拟参考项目中 asm.dll 的功能
     /// </summary>
-    public class GameMemory
+    public partial class GameMemory
     {
         private Process targetProcess;
         private IntPtr processHandle;
